@@ -1,3 +1,14 @@
 body {
-  background-color:skyblue;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+  background: url(background-stars1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 0px;
+  margin-top: 5em;
+  font-size: 3em;
 }
