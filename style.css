@@ -146,10 +146,12 @@ a {
 
 a:hover {
   color:white;
+  transition: all .5s ease-in;
 }
 
 a:hover img{
   opacity: 1;
+  transition: all .5s ease-in;
 }
 
 .projects {
