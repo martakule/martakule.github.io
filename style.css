@@ -142,15 +142,11 @@ a {
   cursor: pointer;
 }
 
-a:hover {
-  color:white;
-  transition: all .5s ease-in;
-}
-
 a:hover img{
   opacity: 1;
   transition: all .5s ease-in;
 }
+
 
 .projects {
   display: flex;
@@ -167,6 +163,22 @@ a:hover img{
   overflow: hidden;
   position: relative;
   width: 270px;
+}
+
+a:hover div.project {
+  border: 2px solid white;
+  box-shadow: 0 0 20px 2px white;
+  transition: all .5s ease-in;
+}
+
+a:hover h3 {
+  background-color: white;
+  transition: all .5s ease-in;
+}
+
+a:hover h3:before {
+  border-top: 30px solid white;
+  transition: all .5s ease-in;
 }
 
 img {
