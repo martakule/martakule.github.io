@@ -181,6 +181,10 @@ a:hover h3:before {
   transition: all .5s ease-in;
 }
 
+header img {
+  max-width:200px;
+}
+
 img {
   max-width: 100%;
   align-self: center;
@@ -226,6 +230,10 @@ a img.social:hover {
   .content, #pageName {
     width: 800px;
   }
+
+  .heading {
+    width: 450px;
+}
 }
 
 @media (max-width: 900px) {
