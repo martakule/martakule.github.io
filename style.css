@@ -13,15 +13,14 @@ html {
 
 body {
   font-family: "Lora", serif;
-  color: #333;
+  color: #1a1a1a;
   margin: 0;
-  background-color: whitesmoke;
 }
 
 .wrapper {
   max-width: 1364px;
   margin: 0 auto 4rem;
-  background: url(images/flowers.jpg) no-repeat right top;
+  background: url(images/drawing.png) no-repeat right top;
 }
 
 footer,
@@ -48,7 +47,7 @@ header {
 
 h1 {
   font-size: 5rem;
-  color: #88555a;
+  color: #4b5f81;
 }
 
 .tagline {
@@ -63,7 +62,7 @@ h2 {
   font-size: 3.5rem;
   margin: 3rem 0 0;
   position: relative;
-  color: #DD0333;
+  color: #40567a;
   z-index: 0;
 }
 
@@ -72,10 +71,9 @@ h2:after {
   position: absolute;
   bottom: 0.8rem;
   left: 0;
-  height: 3px;
+  height: 2px;
   width: 100%;
-  background: #333;
-  background: linear-gradient(to right, #f29e33, #da8ecf);
+  background: linear-gradient(to right, #151269, #81b1ce);
   border-radius: 5px;
   z-index: -1;
 }
@@ -91,7 +89,7 @@ h2:after {
   width: 300px;
   padding: 0.7rem;
   margin: 3rem 1rem 0 0;
-  background-color: white;
+  background-color: #fcfcfc;
 }
 
 .project img {
@@ -111,17 +109,16 @@ h2:after {
 h3 {
   font-size: 1.5em;
   margin-top: -2.1rem;
-  color: #A50326;
+  color: #344a6f;
 }
 
 a {
-  color: #78266D;
-  font-weight: bolder;
+  color: #20375e;
   font-size: 1.1rem;
 }
 
 a:visited {
-  color: #714749;
+  color: #293f65;
 }
 
 a:hover img {
@@ -139,17 +136,21 @@ footer img {
   margin: 0.5rem;
 }
 
+.overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 /*  ---- MEDIA QUERIES ----  */
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .overlay {
-    background-color: rgba(245, 245, 245, 0.85);
+    background-color: rgba(255, 255, 255, 0.815);
   }
 }
 
 @media (max-width: 505px) {
   header {
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 2rem 0;
   }
 }
