@@ -19,18 +19,14 @@ body {
 }
 
 .wrapper {
-  max-width: 1300px;
-  margin: 0 auto;
+  max-width: 1364px;
+  margin: 0 auto 4rem;
   background: url(images/flowers.jpg) no-repeat right top;
-}
-
-.back {
-  background-color: rgba(245, 245, 245, 0);
 }
 
 footer,
 section {
-  margin: 1rem 0 1rem 1rem;
+  margin: 0 2rem;
 }
 
 h1,
@@ -42,17 +38,17 @@ h3 {
 
 p {
   margin: 0.5rem 0 1rem;
+  font-size: 1.1rem;
 }
 
 /* Page title */
 header {
-  margin: 0 1rem;
-  padding: 4rem 0 1rem 0;
+  padding: 4rem 2rem 1rem 2rem;
 }
 
 h1 {
   font-size: 5rem;
-  color: #ef0437;
+  color: #88555a;
 }
 
 .tagline {
@@ -67,7 +63,7 @@ h2 {
   font-size: 3.5rem;
   margin: 3rem 0 0;
   position: relative;
-  color: #f99401;
+  color: #DD0333;
   z-index: 0;
 }
 
@@ -79,7 +75,7 @@ h2:after {
   height: 3px;
   width: 100%;
   background: #333;
-  background: linear-gradient(to right, #bb0a1d, #da8ecf);
+  background: linear-gradient(to right, #f29e33, #da8ecf);
   border-radius: 5px;
   z-index: -1;
 }
@@ -106,18 +102,31 @@ h2:after {
   margin: 5px auto;
 }
 
+.project a {
+  display: block;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
 h3 {
   font-size: 1.5em;
   margin-top: -2.1rem;
-  color: #ee0937;
+  color: #A50326;
 }
 
 a {
-  text-decoration: none;
+  color: #78266D;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+a:visited {
+  color: #714749;
 }
 
 a:hover img {
-  transform: rotate(2deg);
+  transform: rotate(360deg);
+  transition-duration: 1s;
 }
 
 img {
@@ -132,8 +141,8 @@ footer img {
 
 /*  ---- MEDIA QUERIES ----  */
 
-@media (max-width: 800px) {
-  .back {
+@media (max-width: 850px) {
+  .overlay {
     background-color: rgba(245, 245, 245, 0.85);
   }
 }
