@@ -147,9 +147,9 @@ footer img {
   }
 }
 
-@media (max-width: 485px) {
+@media (max-width: 505px) {
   header {
     text-align: center;
-    padding: 2rem 0 0 0;
+    padding: 2rem;
   }
 }
